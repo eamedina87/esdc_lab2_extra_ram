@@ -1,0 +1,42 @@
+{
+   guistr: "# # String gsaved with Nlview 6.4.7  2014-07-30 bk=1.3165 VDI=35 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port reset_rtl -pg 1 -y 220 -defaultsOSRD
+preplace port vga_hs -pg 1 -y 460 -defaultsOSRD
+preplace port sys_clock -pg 1 -y 200 -defaultsOSRD
+preplace port vga_vs -pg 1 -y 480 -defaultsOSRD
+preplace portBus sw -pg 1 -y 150 -defaultsOSRD
+preplace portBus vga_b -pg 1 -y 420 -defaultsOSRD
+preplace portBus btn -pg 1 -y 110 -defaultsOSRD
+preplace portBus vga_r -pg 1 -y 400 -defaultsOSRD
+preplace portBus led -pg 1 -y 250 -defaultsOSRD
+preplace portBus vga_g -pg 1 -y 440 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 3 -y 120 -defaultsOSRD
+preplace inst VGA_SYNC_0 -pg 1 -lvl 2 -y 460 -defaultsOSRD
+preplace inst add_generator_0 -pg 1 -lvl 2 -y 270 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y 210 -defaultsOSRD
+preplace inst session4_0 -pg 1 -lvl 2 -y 100 -defaultsOSRD
+preplace netloc btn_1 1 0 2 NJ 110 N
+preplace netloc session4_0_data 1 2 1 600
+preplace netloc VGA_SYNC_0_vga_vs 1 1 3 310 180 600 480 NJ
+preplace netloc VGA_SYNC_0_vga_b 1 2 2 N 420 NJ
+preplace netloc sys_clock_1 1 0 1 N
+preplace netloc VGA_SYNC_0_vga_r 1 2 2 N 400 NJ
+preplace netloc session4_0_wr_memo 1 2 1 620
+preplace netloc f_div5_0_clkout 1 1 2 280 190 610
+preplace netloc VGA_SYNC_0_vga_g 1 2 2 N 440 NJ
+preplace netloc add_generator_0_adr_memo 1 2 1 640
+preplace netloc session4_0_led 1 2 2 630 250 NJ
+preplace netloc VGA_SYNC_0_vga_hs 1 2 2 N 460 NJ
+preplace netloc session4_0_adr_memo 1 2 1 590
+preplace netloc VGA_SYNC_0_pixel_row 1 1 2 310 330 580
+preplace netloc sw_1 1 0 2 NJ 150 290
+preplace netloc blk_mem_gen_0_doutb 1 1 2 290 200 N
+preplace netloc VGA_SYNC_0_pixel_column 1 1 2 300 210 590
+preplace netloc reset_rtl_1 1 0 1 N
+levelinfo -pg 1 90 200 450 740 860
+",
+}
+{
+   da_board_cnt: "2",
+}
